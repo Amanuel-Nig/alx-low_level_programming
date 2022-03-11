@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - main block 
+ * main - main block
  * prints hexadecimals in lowercase
  * Return: 0
  */

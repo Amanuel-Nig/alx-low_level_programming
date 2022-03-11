@@ -3,7 +3,7 @@
 /**
  * main - main block
  * prints possible combinations of single-digit numbers
- * Retrun: 0
+ * Return: 0
  */
 
 int main(void)

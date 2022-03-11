@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - main block 
+ * main - main block
  * create 2 pairs of numbers that do not repeat
  * Return: 0
  */
