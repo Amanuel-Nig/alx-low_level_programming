@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - main block 
+ * main - main block
  * prints  numbers from 0 - 9 using int variable
  * Return: 0
  */
