@@ -11,39 +11,36 @@
 
 int main(int argc, char *argv[])
 {
-int i;
-int coin;
+int cents, coins = 0;
 
-coin = 0;
 if (argc == 2)
 {
-i = atoi(argv[1]);
-while (i > 0)
+cents = atoi(argv[1]));
+while (cents > 0)
 {
-if (i - 25 >= 0)
+if (cents - 25 >= 0)
 {
-i -= 25;
-coin++;
+cents -= 25;
+coins++;
 }
-else if (i - 10 >= 0)
+else if (cents - 10 >= 0)
 {
-i -= 10;
-coin++;
+cents -= 10;
+coins++;
 }
-else if (i - 5 >= 0)
+else if (cents - 5 >= 0)
 {
-i -= 5;
-coin++;
+cents -= 5;
+coins++;
 }
-else if (i - 2 >= 0)
+else if (cents - 2 >= 0)
 {
-i -= 2;
-coin++;
-}
-else if (i - 1 >= 0)
+cents -= 2;
+coins++;			}
+else if (cents - 1 >= 0)
 {
-i -= 1;
-coin++;
+cents -= 1;
+coins++;
 }
 }
 }
@@ -52,6 +49,6 @@ else
 printf("Error\n");
 return (1);
 }
-printf("%d\n", coin);
+printf("%d\n", coins);
 return (0);
 }
