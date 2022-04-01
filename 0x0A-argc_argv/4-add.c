@@ -13,29 +13,29 @@
 int main(int argc, char *argv[])
 {
 int sum;
+int count;
 int i;
 
+count = 1;
 sum = 0;
-if (argc > 1)
-{
-for (i=1; i < argc; i++)
-{
-sum += atoi(argv[i]);
-}
-if (isdigit(sum) == 0)
-{
-printf("%d\n", sum);
-return (0);
-}
-else
-{
-printf("%s\n", "Error");
-return (1);
-}
-}
 if (argc == 1)
 {
-printf("%d\n", 0);
+printf("0\n");
+return (0);
+}
+while (count < argc)
+{
+for (i = 0; argv[count][i] != '\0'; i++)
+{
+if (!(isdigit(argv[count][i])))
+{
+printf("Error\n");
 return (1);
 }
+}
+sum += atoi(argv[count]);
+count++;
+}
+printf("%d\n", sum);
+return (0);
 }
