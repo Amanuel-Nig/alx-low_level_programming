@@ -10,14 +10,14 @@
 **/
 int main(int argc, char *argv[])
 {
-char i = "Error";
 if argc == 3
 {
-	printf("%d * %d", argv[1], argv[2]);
-
-	return(0);
+printf("%d ", argv[1] * argv[2]);
+return(0);
 }
-printf("%c", i);
-
+else
+{
+printf("%s\n", "Error");
 return(1);
+}
 }
