@@ -1,10 +1,10 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 
 /**
- * main - add postitve numbers.
- * @argc: counts the arguments passed to the function.
+ * main - cheks the fuction.
+ * @argc: couts the arguments passed to the function.
  * @argv: gives the value for the argument passed to the function.
  *
  * Return: Returns always success.
@@ -12,8 +12,8 @@
 
 int main(int argc, char *argv[])
 {
-int i;
 int sum;
+int i;
 
 sum = 0;
 if (argc > 1)
