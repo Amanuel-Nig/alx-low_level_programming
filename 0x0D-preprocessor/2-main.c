@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - prints file name.
+ * main - prints file nami.
  *
  * Return: Always 0.
  */
 int main(void)
 {
 	printf("%s\n", __FILE__);
-i	return (0);
+	return (0);
 }
