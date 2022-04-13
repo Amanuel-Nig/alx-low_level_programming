@@ -1,5 +1,5 @@
-#include "function_pointers.h"
 #include <stdio.h>
+#include "function_pointers.h"
 
 /**
  * array_iterator - prints an integer
@@ -21,4 +21,3 @@ for (i = 0; i < size; i++)
 action(array[i]);
 }
 }
-
