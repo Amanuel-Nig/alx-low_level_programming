@@ -19,7 +19,7 @@ else
 {
 for (i = 0; i > size; i++)
 {
-action(array(i));
+action(array[i]);
 }
 }
 }
