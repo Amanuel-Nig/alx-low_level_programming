@@ -1,50 +1,57 @@
 /**
- * op_add - adds two integers.
- * @a: integer 1.
- * @b: integer 2.
- * Return: returns summation.
- **/
+ * op_add - Adds two numbers
+ * @a: int 1
+ * @b: int 2
+ * Return: Returns result
+**/
 int op_add(int a, int b)
 {
-return(a + b);
+return (a + b);
 }
+
 /**
- * op_sub - subtracts two integers.
- * @a: integer 1.
- * @b: integer 2.
- * Return: returns difference.
- **/
-int op_sub(int a, int b);
+ * op_sub - subtracts two numbers
+ * @a: int 1
+ * @b: int 2
+ * Return: Returns result
+**/
+int op_sub(int a, int b)
 {
-return(a - b);
+	return (a - b);
 }
+
 /**
- * op_mul - multiplies two integers.
- * @a: integer 1.
- * @b: integer 2.
- * Return: returns product.
- **/
+ * op_mul - Multiplies two numbers
+ * @a: int 1
+ * @b: int 2
+ * Return: Returns result
+**/
+
 int op_mul(int a, int b)
 {
-return(a * b);
+return (a * b);
 }
+
 /**
- * op_div - divides two integers.
- * @a: integer 1.
- * @b: integer 2.
- * Return: returns qoutient.
- **/
+ * op_div - Divides two numbers
+ * @a: int 1
+ * @b: int 2
+ * Return: Returns result
+**/
+
 int op_div(int a, int b)
 {
-return(a / b);
+	return (a / b);
 }
+
 /**
- * op_mod - modules two numbers.
- * @a: integer 1.
- * @b: integer 2.
- * Return: returns remainder.
- **/
+ * op_mod - Modules two numbers
+ * @a: int 1
+ * @b: int 2
+ * Return: Returns result
+**/
+
 int op_mod(int a, int b)
 {
-return(a % b);
+return (a % b);
 }
